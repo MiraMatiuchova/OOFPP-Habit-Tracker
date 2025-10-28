@@ -1,4 +1,5 @@
-Habit Tracker App
+# Habit Tracker App
+
 This is a simple Python command-line habit tracking app. It allows users to:
 
 - Create daily or weekly habits
@@ -11,24 +12,32 @@ This is a simple Python command-line habit tracking app. It allows users to:
 
 - Save/load data using a SQLite database
 
-*Requirements
+# Requirements
+
 Python 3.7+
+
 pytest for running tests
 
-Installation
-# This command installs the libraries you need, like pytest.
+# Installation
+
+This command installs the libraries you need, like pytest.
+
 pip install -r requirements.txt
 
-How to Run
+# How to Run
+
 IMPORTANT: Due to the modular structure of the app, you must execute the script from the main project folder to ensure all modules are found correctly.
 
-# 1. Navigate to the project folder (replace 'HabitTracker' with your actual folder name)
-# cd HabitTracker
+1. Navigate to the project folder: (replace 'HabitTrackerApp' with the name of your downloaded folder, e.g., student ID folder)
 
-# 2. This command starts the application.
-python main.py
+  cd HabitTrackerApp
 
-*Using the App
+2. This command starts the application.
+
+  python main.py
+
+# Using the App
+
 Once the app is running, just type the number for the action you want to take and press Enter. The menu options are straightforward, but here's a quick guide:
 
 Add a habit: This is where you start! Give your habit a name and tell the app if it's daily or weekly.
