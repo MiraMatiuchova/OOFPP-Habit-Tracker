@@ -1,0 +1,15 @@
+Byte-compiled files
+pycache/
+*.pyc
+
+Local database file
+*.db
+
+Virtual environment directory
+.venv/
+venv/
+env/
+
+IDE files
+.vscode/
+.idea/
