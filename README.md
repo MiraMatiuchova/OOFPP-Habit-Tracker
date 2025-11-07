@@ -24,7 +24,7 @@ This command installs the libraries you need, like pytest.
 
 pip install -r requirements.txt
 
-# How to Run
+# How to Run the Application
 
 IMPORTANT: Due to the modular structure of the app, you must execute the script from the main project folder to ensure all modules are found correctly.
 
